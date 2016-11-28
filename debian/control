@@ -1,0 +1,12 @@
+Source: ros-kinetic-jaguar-control
+Section: misc
+Priority: extra
+Maintainer: George Stavrinos <gstavrinos@iit.demokritos.gr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch
+Homepage: http://wiki.ros.org/jaguar
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-jaguar-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-manager, ros-kinetic-diff-drive-controller, ros-kinetic-joint-state-controller, ros-kinetic-joint-trajectory-controller, ros-kinetic-joy, ros-kinetic-robot-localization, ros-kinetic-rostopic, ros-kinetic-teleop-twist-joy, ros-kinetic-twist-mux
+Description: DrRobot's Jaguar 4X4 controller configurations
