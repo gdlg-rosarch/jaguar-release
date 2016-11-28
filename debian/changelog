@@ -1,0 +1,8 @@
+ros-kinetic-jaguar-msgs (0.1.0-0jessie) jessie; urgency=high
+
+  * Added Jaguar message definitions
+  * Contributors: George Stavrinos
+
+ -- George Stavrinos <gstavrinos@iit.demokritos.gr>  Fri, 25 Nov 2016 00:00:00 -0000
+
+
