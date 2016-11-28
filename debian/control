@@ -1,0 +1,12 @@
+Source: ros-kinetic-jaguar-description
+Section: misc
+Priority: extra
+Maintainer: George Stavrinos <gstavrinos@iit.demokritos.gr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-urdf, ros-kinetic-xacro
+Homepage: http://wiki.ros.org/jaguar
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-jaguar-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-tf, ros-kinetic-urdf, ros-kinetic-xacro
+Description: A robot description package for Dr Robot's Jaguar 4x4
